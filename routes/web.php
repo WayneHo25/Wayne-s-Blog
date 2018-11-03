@@ -17,6 +17,9 @@ Route::get('/', function () {
 });
 Route::get('blog', 'BlogController@index');
 Route::get('blog/{slug}', 'BlogController@showPost');
+$router->get('contact', 'ContactController@showForm');
+Route::post('contact', 'ContactController@sendContactInfo');
+$router->get('about', 'AboutController@showAbout');
 
 // Admin area
 Route::get('admin', function () {

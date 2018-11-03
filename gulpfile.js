@@ -3,6 +3,7 @@ var rename = require('gulp-rename');
 var elixir = require('laravel-elixir');
 
 /**
+ * Copy any needed files.
  *
  * Do a 'gulp copyfiles' after bower updates
  */
@@ -71,17 +72,23 @@ gulp.task("copyfiles", function() {
  */
 elixir(function(mix) {
 
-    // 合并脚本文件
+    // Combine scripts
     mix.scripts([
-            'js/jquery.js',
-            'js/bootstrap.js',
-            'js/jquery.dataTables.js',
-            'js/dataTables.bootstrap.js'
-        ],
-        'public/assets/js/admin.js',
-        'resources/assets'
-    );
+        'js/jquery.js',
+        'js/bootstrap.js',
+        'js/jquery.dataTables.js',
+        'js/dataTables.bootstrap.js'
+    ],
+    'public/assets/js/admin.js', 'resources/assets');
 
-    // 编译 Less
+    // Combine blog scripts
+    mix.scripts([
+        'js/jquery.js',
+        'js/bootstrap.js',
+        'js/blog.js'
+    ], 'public/assets/js/blog.js', 'resources/assets');
+
+    // Compile CSS
     mix.less('admin.less', 'public/assets/css/admin.css');
+    mix.less('blog.less', 'public/assets/css/blog.css');
 });
