@@ -18,6 +18,20 @@
   <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
   <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
+
+  <style>
+    .thumbnail {
+        padding: 0 0 15px 0;
+        border: none;
+        border-radius: 0;
+        background-color: #f6f6f6;
+    }
+    .thumbnail img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
+    }
+  </style>
 </head>
 <body>
 @include('blog.partials.page-nav')
