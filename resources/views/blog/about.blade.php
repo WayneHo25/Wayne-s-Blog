@@ -27,7 +27,7 @@
             <div class="thumbnail">
                 <img src="{{ page_image('safe-beach.png') }}" alt="Safe Beach" width="400" height="300">
                 <a href="https://github.com/WayneHo25/Safe-Beach">
-                    <strong>Safe Beach</strong>
+                    Safe Beach
                 </a>
             </div>
         </div>
@@ -35,7 +35,7 @@
             <div class="thumbnail">
                 <img src="{{ page_image('yeeplus-project.png') }}" alt="Yeeplus Project" width="400" height="300">
                 <a href="https://github.com/WayneHo25/YeePlus">
-                    <strong>Yeeplus Project</strong>
+                    Yeeplus Project
                 </a>
             </div>
         </div>
@@ -43,7 +43,7 @@
             <div class="thumbnail">
                 <img src="{{ page_image('sunglass-shop.png') }}" alt="Sunglass Shop" width="400" height="300">
                 <a href="https://github.com/WayneHo25/Sunglass-Shop-Project">
-                    <strong>Sunglass Shop</strong>
+                    Sunglass Shop
                 </a>
             </div>
         </div>
@@ -55,7 +55,7 @@
             <div class="thumbnail">
                 <img src="{{ page_image('money-manager.png') }}" alt="Money Manager" width="400" height="300">
                 <a href="https://github.com/WayneHo25/MoneyManager">
-                    <strong>Money Manager</strong>
+                    Money Manager
                 </a>
             </div>
         </div>
@@ -63,7 +63,7 @@
             <div class="thumbnail">
                 <img src="{{ page_image('liven.png') }}" alt="Liven" width="400" height="300">
                 <a href="https://www.liven.com.au/">
-                    <strong>Liven</strong>
+                    Liven
                 </a>
             </div>
         </div>
@@ -71,7 +71,7 @@
             <div class="thumbnail">
                 <img src="{{ page_image('parceltube.png') }}" alt="ParcelTube" width="400" height="300">
                 <a href="http://www.parceltube.com.au/">
-                    <strong>ParcelTube</strong>
+                    ParcelTube
                 </a>
             </div>
         </div>

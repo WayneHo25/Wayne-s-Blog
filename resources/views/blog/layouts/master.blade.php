@@ -31,6 +31,14 @@
         height: 100%;
         margin-bottom: 10px;
     }
+    .thumbnail a:link {
+      font-size:18px;
+      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-weight: 400;
+    }
+    .thumbnail a:hover {
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
