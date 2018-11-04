@@ -22,7 +22,7 @@
 @section('content')
   <div class="container text-center">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
         <div class="col-sm-4">
             <div class="thumbnail">
                 <img src="{{ page_image('safe-beach.png') }}" alt="Safe Beach" width="400" height="300">
@@ -50,7 +50,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
         <div class="col-sm-4">
             <div class="thumbnail">
                 <img src="{{ page_image('money-manager.png') }}" alt="Money Manager" width="400" height="300">
