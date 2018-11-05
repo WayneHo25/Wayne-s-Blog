@@ -53,7 +53,7 @@
       <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
         <div class="col-sm-4">
             <div class="thumbnail">
-                <img src="{{ page_image('money-manager.png') }}" alt="Money Manager" width="400" height="300">
+                <img src="{{ page_image('money-manager.jpg') }}" alt="Money Manager" width="400" height="300">
                 <a href="https://github.com/WayneHo25/MoneyManager">
                     Money Manager
                 </a>

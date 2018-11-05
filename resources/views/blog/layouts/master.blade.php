@@ -24,7 +24,7 @@
         padding: 0 0 15px 0;
         border: none;
         border-radius: 0;
-        background-color: #f6f6f6;
+        background-color: #eeeeee;
     }
     .thumbnail img {
         width: 100%;
