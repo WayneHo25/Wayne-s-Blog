@@ -10,4 +10,4 @@ CentOS 7.0 x64, Nginx, PHP7.2, MySQL 5.6
 Deployed on Amazon Web Services
 
 ## Screenshot of Index
-![Website Index](https://github.com/wayneho25/sunglass-shop-project/raw/master/index.png)
+![Website Index](https://github.com/wayneho25/Wayne-s-Blog/raw/master/index.png)
